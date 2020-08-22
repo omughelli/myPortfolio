@@ -76,7 +76,7 @@ nav ul li a:hover{
     text-decoration: none;
 }
 nav ul li:hover{
-    background: rgb(187, 186, 186);
+    background: rgb(5, 155, 255);
 }
 nav ul li:hover a{
     color: #fff;
@@ -110,6 +110,7 @@ nav ul li i{
     color: #fff;
     padding: 10px;
     display: none;
+    cursor: pointer;
 }
 /* slide */
 #slide{
@@ -195,7 +196,7 @@ nav ul li i{
 .slider_text hr{
     width: 5%;
     height: 3px;
-    background-color: rgb(182, 211, 238);
+    background-color: rgb(5, 155, 255);
     margin: 1%;
 }
 .slider_text p{
@@ -206,11 +207,11 @@ nav ul li i{
     padding: 10px;
     background-color: transparent;
     color: #fff;
-    border: 1px solid rgb(44, 22, 241);
+    border: 1px solid rgb(5, 155, 255);
     transition: all 0.5s ease-in-out;
 }
 .slider_text a button:hover{
-    background-color: rgb(235, 109, 71);
+    background-color: rgb(5, 155, 255);
 }
 /*how_we_be_of_help  */
 #how_we_be_of_help{
@@ -221,7 +222,7 @@ nav ul li i{
     flex-direction: column;
     width: 17vw;
     height: 6vh;
-    background-color: rgb(235, 109, 71);
+    background-color: rgb(5, 155, 255);
     border-radius: 10px;
     animation: 1s blink infinite;
 }
@@ -296,7 +297,7 @@ nav ul li i{
 #submit{
     width: 20%;
     padding: 10px;
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(5, 155, 255);
     color: #fff;
     margin: 10px 10px;
 }
@@ -349,7 +350,7 @@ nav ul li i{
 .what_we_are_engaged_in_text a button{
     padding: 10px;
     color: #fff;
-    background-color: rgb(84, 84, 214);
+    background-color: rgb(5, 155, 255);
     transition: all .2s ease-in-out;
     font-size: 1rem;
 }
@@ -369,7 +370,7 @@ nav ul li i{
 #about hr{
     width: 7%;
     height: 2px;
-    background-color: #000;
+    background-color: rgb(5, 155, 255);
 }
 .about{
     width: 80%;
@@ -394,11 +395,11 @@ nav ul li i{
 #about_text button{
     padding: 10px;
     color: #fff;
-    background-color: rgb(84, 84, 214);
+    background-color: rgb(5, 155, 255);
 }
 #about_text button:hover{
     outline-offset: 1px;
-    outline-color: rgb(70, 38, 9);
+    outline-color: rgb(5, 155, 255);
     outline-style: solid;
     transform: scale(1.1);
 }
@@ -450,7 +451,7 @@ nav ul li i{
 }
 .best_creative_solutions_text button{
     padding: 10px;
-    background-color: rgb(84, 84, 214);
+    background-color: rgb(5, 155, 255);
     color: #fff;
 }
 /* what is on your mind  */
@@ -467,7 +468,7 @@ nav ul li i{
 #whats_on_our_mind hr{
     width: 6%;
     height: 2.5px;
-    background-color: #000;
+    background-color: rgb(5, 155, 255);
 }
 #whats_on_our_mind_text_and_picture{
     width: 100%;
@@ -536,13 +537,13 @@ nav ul li i{
 }
 .requestQuoteText button{
     padding: 10px;
-    background-color: rgb(235, 109, 71);
+    background-color: rgb(5, 155, 255);
     color: #fff;
     transition: all .2s ease-in-out;
 }
 .requestQuoteText button:hover{
     transform: scale(.9);
-    background-color: rgb(155, 155, 229);
+    background-color: rgb(6, 67, 107);
 }
 /* footer */
 #footer{
@@ -564,7 +565,7 @@ nav ul li i{
 #contact_us h2{
     font-size: 2rem;
     padding-left: 10px;
-    border-left: 2px solid rgb(93, 93, 240);
+    border-left: 2px solid rgb(5, 155, 255);
     margin-bottom: 10px;
 }
 #contact_phone_numbers{
@@ -610,6 +611,7 @@ nav ul li i{
 #working_time h2{
     font-size: 2rem;
     margin-bottom: 10%;
+    border-left: 2px solid rgb(5, 155, 255);
 }
 #copyright{
     color: #fff;
