@@ -1,3 +1,4 @@
+window.onscroll = function(){changeHeader(), displayAbout()};
 function displayNavigation(){
     let displayNavigation = document.getElementById('displayNavigation');
     let navigation = document.querySelector('nav');
@@ -86,3 +87,30 @@ function learnMore(){
     })
 }
 learnMore();
+
+/* how_we_be_of_help */
+setTimeout(function(){
+    let howMayIHelp = document.getElementById('how_we_be_of_help');
+    howMayIHelp.style.display = "block"
+}, 6000)
+
+/* header */
+function changeHeader(){
+    let header = document.querySelector('header');
+    if(document.body.scrollTop > 30 || document.documentElement > 30){
+        header.style.backgroundColor = "rgb(0, 87, 144)"
+    }
+    else{
+        header.style.backgroundColor = "transparent";
+    }
+}
+
+/* display about */
+function displayAbout(){
+    if(document.body.scrollTop > 110 || document.documentElement.scrollTop > 110){
+        document.getElementById('about').style.display = "block"
+    }
+    else{
+        document.getElementById('about').style.display = "none";
+    }
+}
